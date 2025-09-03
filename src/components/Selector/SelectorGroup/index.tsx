@@ -8,7 +8,7 @@ const SelectorGroup = ({ icon, children, ...rest }: SelectorGroup) => {
   return (
     <div className={styles.container}>
       {icon && <div className={styles.icone}>{icon}</div>}
-      <select className={styles.seletor} {...rest}>
+      <select className={styles.selector} {...rest}>
         {children}
       </select>
     </div>

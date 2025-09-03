@@ -1,19 +1,21 @@
-import type React from 'react'
-import styles from './Button.module.css'
-import classNames from 'classnames'
+import type React from "react";
+import styles from "./Button.module.css";
+import classNames from "classnames";
 
 type ButtonProps = {
-    variant: "default" | "icon" 
-} & React.ButtonHTMLAttributes<HTMLButtonElement>
+  variant: "default" | "icon";
+} & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
-const index = ({children, variant='default', ...rest }: ButtonProps) => {
-    const classMap = {
-        default: styles.default,
-        icon: styles.icon
-    }
+const Button = ({ children, variant = "default", ...rest }: ButtonProps) => {
+  const classMap = {
+    default: styles.default,
+    icon: styles.icon,
+  };
   return (
-    <button className={classNames(styles.botao, classMap[variant])} {...rest}>{children}</button>
-  )
-}
+    <button className={classNames(styles.botao, classMap[variant])} {...rest}>
+      {children}
+    </button>
+  );
+};
 
-export default index
+export default Button;

@@ -1,9 +1,13 @@
-import Banner from "./components/Banner"
+import Banner from "./components/Banner";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <Banner src="./public/Banner.png" alt="Banner"/> 
-  )
+    <>
+      <Header />
+      <Banner src="./public/Banner.png" alt="Banner" />
+    </>
+  );
 }
 
-export default App
+export default App;
