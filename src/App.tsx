@@ -1,4 +1,5 @@
 import Banner from "./components/Banner";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import NewsLetter from "./components/Newsletter";
 import MovieSection from "./MovieSection";
@@ -11,6 +12,7 @@ function App() {
       <MovieSection />
       <Banner src="./public/combo.png" alt="Banner promoção"/>
       <NewsLetter/>
+      <Footer/>
     </>
   );
 }

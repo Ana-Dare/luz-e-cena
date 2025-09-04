@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: center;
   gap: var(--gap-s);
+  padding-bottom: 1rem;
 }
 
 .titulo {
