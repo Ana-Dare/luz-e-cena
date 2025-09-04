@@ -1,5 +1,6 @@
 import Banner from "./components/Banner";
 import Header from "./components/Header";
+import NewsLetter from "./components/Newsletter";
 import MovieSection from "./MovieSection";
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
       <Header />
       <Banner src="./public/Banner.png" alt="Banner" />
       <MovieSection />
+      <Banner src="./public/combo.png" alt="Banner promoção"/>
+      <NewsLetter/>
     </>
   );
 }
