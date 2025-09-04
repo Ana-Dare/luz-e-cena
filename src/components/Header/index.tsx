@@ -8,10 +8,10 @@ import styles from "./Header.module.css";
 
 const Header = () => {
   return (
-    <header className={styles.cabecalho}> 
+    <header className={styles.cabecalho}>
       <HeaderList>
         <HeaderListItem>
-          <Logo src="/logo.png" />
+          <Logo src="./public/Logo.png" />
         </HeaderListItem>
         <HeaderListItem>
           <HeaderLink />

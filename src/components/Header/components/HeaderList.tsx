@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import styles from "../../Menu/MenuList/MenuList.module.css";
 
-const HeaderList = ({children}: React.HTMLAttributes<HTMLUListElement>) => {
-  return (
-    <ul>{children}</ul>
-  )
-}
+const HeaderList = ({ children }: React.HTMLAttributes<HTMLUListElement>) => {
+  return <ul className={styles.navegacao}>{children}</ul>;
+};
 
-export default HeaderList
+export default HeaderList;

@@ -9,6 +9,8 @@
 .navegacao {
   list-style: none;
   padding-left: 0;
+  display: flex;
+  align-items: center;
 }
 
 .navegacao li {
@@ -17,4 +19,8 @@
 
 .navegacao li a {
   display: block;
+}
+
+.navegacao ul {
+  height: fit-content;
 }
